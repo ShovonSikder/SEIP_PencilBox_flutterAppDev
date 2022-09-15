@@ -1,10 +1,10 @@
-import 'package:class4_json_class_map/cloud.dart';
-import 'package:class4_json_class_map/coord.dart';
-import 'package:class4_json_class_map/maininfo.dart';
-import 'package:class4_json_class_map/rain.dart';
-import 'package:class4_json_class_map/sys.dart';
-import 'package:class4_json_class_map/weather.dart';
-import 'package:class4_json_class_map/wind.dart';
+import 'package:class4_json_class_map/weather_forecast/cloud.dart';
+import 'package:class4_json_class_map/weather_forecast/coord.dart';
+import 'package:class4_json_class_map/weather_forecast/maininfo.dart';
+import 'package:class4_json_class_map/weather_forecast/rain.dart';
+import 'package:class4_json_class_map/weather_forecast/sys.dart';
+import 'package:class4_json_class_map/weather_forecast/weather.dart';
+import 'package:class4_json_class_map/weather_forecast/wind.dart';
 
 class WeatherForecast {
   Coord coord;

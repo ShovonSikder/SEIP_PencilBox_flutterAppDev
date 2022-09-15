@@ -2,7 +2,7 @@
 
 import 'dart:io';
 
-import 'package:class4_json_class_map/calculator.dart';
+import 'package:class4_json_class_map/math_operations/calculator.dart';
 
 dynamic stringToNum(String n) {
   try {
