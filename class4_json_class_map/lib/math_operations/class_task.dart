@@ -42,46 +42,44 @@ dynamic displayChoice() {
 }
 
 void operation(String choice) {
-  if (choice != null) {
-    switch (choice) {
-      case '1':
-        print('adding..');
-        print('Result= ${input2AndCall(Calculator.add)}');
-        break;
-      case '2':
-        print('Subtracting...');
-        print('Result= ${input2AndCall(Calculator.subtract)}');
-        break;
+  switch (choice) {
+    case '1':
+      print('adding..');
+      print('Result= ${input2AndCall(Calculator.add)}');
+      break;
+    case '2':
+      print('Subtracting...');
+      print('Result= ${input2AndCall(Calculator.subtract)}');
+      break;
 
-      case '3':
-        print('Multiplying...');
-        print('Result= ${input2AndCall(Calculator.multiply)}');
-        break;
-      case '4':
-        print('Dividing...');
-        print('Result= ${input2AndCall(Calculator.divide)}');
-        break;
-      case '5':
-        print('Powering...');
-        print('Result= ${input2AndCall(Calculator.power)}');
-        break;
-      case '6':
-        print('Squaring...');
-        print('Result= ${input1AndCall(Calculator.sqrRt)}');
-        break;
-      case '7':
-        print('Circling...');
-        print('Result= ${input1AndCall(Calculator.circleCircum)}');
-        break;
-      case '8':
-        exit(0);
-      case '':
-        //clear console
-        print('');
-        break;
-      default:
-        print('Enter valid option');
-    }
+    case '3':
+      print('Multiplying...');
+      print('Result= ${input2AndCall(Calculator.multiply)}');
+      break;
+    case '4':
+      print('Dividing...');
+      print('Result= ${input2AndCall(Calculator.divide)}');
+      break;
+    case '5':
+      print('Powering...');
+      print('Result= ${input2AndCall(Calculator.power)}');
+      break;
+    case '6':
+      print('Squaring...');
+      print('Result= ${input1AndCall(Calculator.sqrRt)}');
+      break;
+    case '7':
+      print('Circling...');
+      print('Result= ${input1AndCall(Calculator.circleCircum)}');
+      break;
+    case '8':
+      exit(0);
+    case '':
+      //clear console
+      print('');
+      break;
+    default:
+      print('Enter valid option');
   }
 }
 
