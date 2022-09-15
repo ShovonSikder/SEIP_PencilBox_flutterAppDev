@@ -77,6 +77,7 @@ void operation(String choice) {
         exit(0);
       case '':
         //clear console
+        print('');
         break;
       default:
         print('Enter valid option');
