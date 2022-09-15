@@ -18,11 +18,11 @@ void main() {
   //student list
   final students = [stipStdn, paidStdn];
 
-  int st_no = 1;
+  int stNo = 1;
   for (var stdn in students) {
-    print('Student No: $st_no \n--------------------');
+    print('Student No: $stNo \n--------------------');
     viewInfo(stdn);
-    st_no++;
+    stNo++;
   }
 }
 
